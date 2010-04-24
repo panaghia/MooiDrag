@@ -11,13 +11,13 @@ Declare an instance of MooiDrag class passing the element to be set as draggable
 
 Example usage:
 
-window.addEvent('domready', function() {
+
 	var iDrag = new MooiDrag(
 	{
 	    el: $('item')	            
 	});
 	iDrag.makeDraggable();
-});
+
 
 Screenshots
 -----------
